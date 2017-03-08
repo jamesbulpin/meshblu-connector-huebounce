@@ -1,0 +1,33 @@
+title: "Default Configuration"
+type: "object"
+properties:
+  options:
+    title: "Options"
+    type: "object"
+    properties:
+      lightuuid:
+        title: "Hue light device UUID"
+        type: "string"
+      lighttoken:
+        title: "Hue light device token"
+        type: "string"
+      lightdomain:
+        title: "Hue light meshblu domain"
+        type: "string"
+      buttonuuid:
+        title: "Hue button device UUID"
+        type: "string"
+      buttontoken:
+        title: "Hue button device token"
+        type: "string"
+      buttondomain:
+        title: "Hue button meshblu domain"
+        type: "string"
+    required: [
+      "lightuuid",
+      "lighttoken",
+      "lightdomain",
+      "buttonuuid",
+      "buttontoken",
+      "buttondomain"
+    ]
