@@ -1,6 +1,6 @@
 {
   "name": "meshblu-connector-huebounce",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Meshblu Connector for Hue bouncing",
   "homepage": "https://github.com/jamesbulpin/meshblu-connector-huebounce",
   "bugs": "https://github.com/jamesbulpin/meshblu-connector-huebounce/issues",
@@ -36,7 +36,7 @@
     "debug": "^2.2.0",
     "fs-cson": "^0.3.2",
     "meshblu-config": "^6.0.0",
-    "meshblu-connector-runner": "^10.1.2",
+    "meshblu-connector-runner": "^10.5.3",
     "meshblu-connector-schema-generator": "^2.1.0"
   },
   "meshbluConnector": {
